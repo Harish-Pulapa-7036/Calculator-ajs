@@ -1,0 +1,40 @@
+body{
+    
+    /* margin: auto 20rem; */
+    background-color: rgb(151, 151, 253);
+   
+    display: flex;
+   
+
+    justify-content: center;
+    align-items: center;
+     height: 100vh;
+    
+}
+h1{
+   text-align: center; 
+}
+#container{
+    background-color: white;
+    padding: 1rem;
+    
+    width: 50%;
+    box-sizing: border-box;
+}
+#main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 2rem;
+}
+input{
+    width: 70%;
+    height: 2rem;
+}
+button{
+    width: 7rem;
+    height: 2rem;
+    color: white;
+    margin: 0.3rem;
+    background-color: blue;
+}
